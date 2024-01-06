@@ -7,3 +7,21 @@
 :root {
 
 }
+
+.light-mode {
+  // base background color
+  --theme-bg-base-color: #ffffff;
+  // base text color
+  --theme-text-base-color: #343435;
+  // scroll bar slider background color
+  --theme-scrollbar-thumb-bg-color: rgba(0, 0, 0, .2);
+}
+
+.dark-mode {
+  // base background color
+  --theme-bg-base-color: #212121;
+  // base text color
+  --theme-text-base-color: #fffdfc;
+  // scroll bar slider background color
+  --theme-scrollbar-thumb-bg-color: rgba(255, 255, 255, .2);
+}
