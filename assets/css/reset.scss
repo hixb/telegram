@@ -1,0 +1,39 @@
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Barlow', 'Noto Sans SC', sans-serif;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 3px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #222;
+  border-radius: 4px;
+}
+
+i {
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: revert;
+  font-weight: revert;
+}
